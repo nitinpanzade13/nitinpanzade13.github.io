@@ -155,6 +155,7 @@ header .nav-logo span {
 }
 
 @media screen and (max-width:992px) {
+
     .hero .container {
         flex-direction: column-reverse;
         justify-content: flex-start;
@@ -165,6 +166,13 @@ header .nav-logo span {
         padding-top: 4rem;
         padding-bottom: 4rem;
 
+    }
+
+}
+
+@media screen and (max-width:540px) {
+    .hero .h1 {
+        font-size: 2.5rem;
     }
 }
 
